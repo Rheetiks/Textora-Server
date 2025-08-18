@@ -1,0 +1,105 @@
+# =========================
+# textora-backend (Spring Boot / Java)
+# =========================
+
+# Maven / Gradle build artifacts
+/textora-backend/target/
+/textora-backend/build/
+
+# Maven Wrapper
+/textora-backend/.mvn/wrapper/maven-wrapper.jar
+/textora-backend/mvnw
+/textora-backend/mvnw.cmd
+
+# IDEs
+/textora-backend/.idea/
+/textora-backend/*.iml
+/textora-backend/*.iws
+/textora-backend/.vscode/
+/textora-backend/.apt_generated
+/textora-backend/.sts4-cache
+/textora-backend/.settings
+/textora-backend/.project
+/textora-backend/.classpath
+/textora-backend/.factorypath
+/textora-backend/.springBeans
+
+# NetBeans
+/textora-backend/nbproject/private/
+/textora-backend/nbbuild/
+/textora-backend/dist/
+/textora-backend/nbdist/
+/textora-backend/.nb-gradle/
+
+# Logs
+/textora-backend/logs/
+/textora-backend/*.log
+
+# OS
+/textora-backend/.DS_Store
+
+# Environment / secrets
+/textora-backend/.env
+
+# =========================
+# textora-websocket-server (Node.js / PartyKit)
+# =========================
+
+# Node.js dependencies
+/textora-websocket-server/node_modules/
+/textora-websocket-server/jspm_packages/
+
+# Build output
+/textora-websocket-server/dist/
+/textora-websocket-server/dist-ssr/
+/textora-websocket-server/out/
+/textora-websocket-server/.next/
+/textora-websocket-server/.nuxt/
+/textora-websocket-server/.cache/
+/textora-websocket-server/.parcel-cache/
+/textora-websocket-server/.vuepress/dist/
+/textora-websocket-server/.docusaurus/
+/textora-websocket-server/.serverless/
+/textora-websocket-server/.fusebox/
+
+# Logs
+/textora-websocket-server/logs/
+/textora-websocket-server/*.log
+/textora-websocket-server/npm-debug.log*
+/textora-websocket-server/yarn-debug.log*
+/textora-websocket-server/yarn-error.log*
+/textora-websocket-server/lerna-debug.log*
+/textora-websocket-server/pnpm-debug.log*
+
+# Temp / cache
+/textora-websocket-server/.nyc_output/
+/textora-websocket-server/.npm/
+/textora-websocket-server/.eslintcache
+/textora-websocket-server/.stylelintcache
+/textora-websocket-server/.rpt2_cache/
+/textora-websocket-server/.rts2_cache_cjs/
+/textora-websocket-server/.rts2_cache_es/
+/textora-websocket-server/.rts2_cache_umd/
+/textora-websocket-server/.node_repl_history
+/textora-websocket-server/.partykit
+
+# Environment / secrets
+/textora-websocket-server/.env
+/textora-websocket-server/.env.development.local
+/textora-websocket-server/.env.test.local
+/textora-websocket-server/.env.production.local
+/textora-websocket-server/.env.local
+
+# OS
+/textora-websocket-server/.DS_Store
+
+# Yarn v2
+/textora-websocket-server/.yarn/cache
+/textora-websocket-server/.yarn/unplugged
+/textora-websocket-server/.yarn/build-state.yml
+/textora-websocket-server/.yarn/install-state.gz
+/textora-websocket-server/.pnp.*
+
+
+/textora-websocket-server/.vscode
+

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/styles.css"],
+  "sourcesContent": ["/* \n  We've already included normalize.css. \n\n  But we'd like a modern looking boilerplate. \n  Clean type, sans-serif, and a nice color palette. \n  \n*/\n\nbody {\n  font-family: sans-serif;\n  font-size: 16px;\n  line-height: 1.5;\n  color: #333;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: sans-serif;\n  font-weight: 600;\n  line-height: 1.25;\n  margin-top: 0;\n  margin-bottom: 0.5rem;\n}\n\n#app {\n  padding: 1rem;\n}\n"],
+  "mappings": ";AAQA;AACE,eAAa;AACb,aAAW;AACX,eAAa;AACb,SAAO;AACT;AAEA;AACA;AACA;AACA;AACA;AACA;AACE,eAAa;AACb,eAAa;AACb,eAAa;AACb,cAAY;AACZ,iBAAe;AACjB;AAEA,CAAC;AACC,WAAS;AACX;",
+  "names": []
+}
