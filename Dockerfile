@@ -13,7 +13,7 @@ COPY textora-backend/ ./textora-backend/
 COPY textora-websocket-server/ ./textora-websocket-server/
 
 WORKDIR /app/textora-backend
-RUN ./mvnw clean package -DskipTests
+RUN ./mvn clean package -DskipTests
 
 WORKDIR /app/textora-websocket-server
 RUN npm ci
