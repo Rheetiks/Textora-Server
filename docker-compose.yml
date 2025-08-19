@@ -5,7 +5,7 @@ services:
     build: .
     container_name: textora-app
     ports:
-      - "8080:8080"
+      - "8080:8085"
       - "1999:1999"
     environment:
       DB_URL: ${POSTGRES_URL}
