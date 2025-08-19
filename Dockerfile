@@ -7,8 +7,6 @@ RUN apt-get update && \
     apt-get install -y nodejs && \
     rm -rf /var/lib/apt/lists/*
 
-ENV CHOKIDAR_USEPOLLING=true
-ENV CHOKIDAR_INTERVAL=1000
 ENV CHOKIDAR_IGNORE=public
 
 WORKDIR /app
