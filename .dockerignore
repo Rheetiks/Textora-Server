@@ -1,0 +1,40 @@
+# Maven / Java build artifacts
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/out/
+
+# Node / PartyKit dependencies
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+**/dist/
+**/.next/
+**/.parcel-cache/
+**/.turbo/
+**/.vite/
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+**/*.log
+
+# Git
+.git
+.gitignore
+
+.env
+*.env
+**/.env
+**/*.env
