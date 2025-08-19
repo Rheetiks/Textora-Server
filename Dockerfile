@@ -21,8 +21,6 @@ RUN mvn clean package -DskipTests
 
 WORKDIR /app/textora-websocket-server
 RUN npm ci
-RUN npx partykit build   # build once, no watchers in prod
-
 
 EXPOSE 8080 1999
 
