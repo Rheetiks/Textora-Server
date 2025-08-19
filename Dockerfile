@@ -11,6 +11,8 @@ WORKDIR /app
 
 COPY textora-backend/ ./textora-backend/
 COPY textora-websocket-server/ ./textora-websocket-server/
+COPY textora-backend/mvnw ./textora-backend/mvnw
+COPY textora-backend/.mvn ./textora-backend/.mvn
 
 WORKDIR /app/textora-backend
 RUN ./mvnw clean package -DskipTests
