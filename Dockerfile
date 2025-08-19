@@ -13,7 +13,9 @@ COPY textora-backend/ ./textora-backend/
 COPY textora-websocket-server/ ./textora-websocket-server/
 
 WORKDIR /app/textora-backend
-RUN ./mvn clean package -DskipTests
+# Set executable permission for the mvnw script
+RUN chmod +x ./mvnw
+RUN ./mvnw clean package -DskipTests
 
 WORKDIR /app/textora-websocket-server
 RUN npm ci
