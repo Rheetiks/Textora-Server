@@ -3,15 +3,15 @@ import { onConnect } from "y-partykit";
 import * as Y from "yjs";
 
 
-const API_BASE_URL = "http://localhost:8080";
+const API_BASE_URL = "http://essentials-textoeraserver-reewzj-2536d5-46-202-152-148.traefik.me";
 
-  
+
 
 
 interface DocumentData {
   id: string;
   title: string;
-  content: string; 
+  content: string;
   createdAt: string;
   updatedAt: string;
 }
@@ -41,8 +41,8 @@ function uint8ArrayToBase64(bytes: Uint8Array): string {
 }
 
 export default class YjsServer implements Party.Server {
-  constructor(public party: Party.Room) {}
-  
+  constructor(public party: Party.Room) { }
+
 
   static async onBeforeConnect(req: Party.Request, lobby: Party.Lobby, ctx: Party.ConnectionContext) {
     const url = new URL(req.url);
